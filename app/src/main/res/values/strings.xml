@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="action_map">Map</string>
+    <string name="title_activity_details">Weather Details</string>
+    <string name="preference_title">Forecast Preference</string>
+    <string name="preference_zip_title">Set location</string>
+    <string name="preference_zip_default">Toronto,Canada</string>
+    <string name="preference_zip_key">preferenceZipKey</string>
+    <string name="preference_units_key">preferenceUnitsKey</string>
+    <string name="units_metric">Metric</string>
+    <string name="units_imperial">Imperial</string>
+    <string-array name="preference_units_array">
+        <item>@string/units_metric</item>
+        <item>@string/units_imperial</item>
+    </string-array>
+    <string name="retry">Retry</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <string name="format_wind_mph">
+    Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="format_wind_kmh">
+    Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="format_pressure">Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <string name="format_humidity">Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+
+</resources>

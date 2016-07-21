@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_title">
+        <EditTextPreference
+            android:defaultValue="@string/preference_zip_default"
+            android:key="@string/preference_zip_key"
+            android:persistent="false"
+            android:title="@string/preference_zip_title"
+            android:inputType="number"
+            android:singleLine="true"/>
+        <ListPreference
+            android:key="@string/preference_units_key"
+            android:defaultValue="@string/units_metric"
+            android:summary="@string/units_metric"
+            android:entries="@array/preference_units_array"
+            android:title="Temperature Units"
+            android:entryValues="@array/preference_units_array"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_8623e0b8624e75623930448874414217f00cc16f.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_97a303a25e5a927640dd8f9d3135cb795dcc8814.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="83e81537012f1975aa902eedbdb8da5aa515aea5">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-idling-resource-2.2.1_06193b19deab4c2da4687e5d389502038024edeb.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/preference-v14/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0841483ac3b01320cd98570f7a9e474d145519bc">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v14-23.0.1_2822a6cd335786edd8a3b5c84eecce9d05d2ca27.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/dagger-1.2.2_b510fbfbb90756c963461b569aa7d36baa193a14.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-contrib/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3a0fb44da5f5919b3fc86c9d1e103f59be5b58cf">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-contrib-2.2.1_03031d59f62cdada37094d454d70c1db4920a9a4.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_c24d30475d23fa2b159082f275d18c7cc77ab746.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_5cc72e2b230f7a331644cf798cec8e21109d6abe.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta1/3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a/converter-gson-2.0.0-beta1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta1_ff52ba4b6c1cc1728bccb09cd456643329d64e8f.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-web/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="029284af0b74dc7f0e065c26bac13e03f4b2d75c">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-web-2.2.1_60f1324f6c90c674ce3d6ae0a07fc1062c763cb1.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3_914818c1d789d6bdd0e870c3b9ae32b7449116e6.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1_09d2e8a37cffb43c86066ffde8a9c26d43d3f673.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="25a72389e79fbac13f78412a4a6ffacc1cdb0673">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-core-2.2.1_07ec1d3c1ac71d94558b7499e46aa045f2ac5307.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/javax.inject-1_43b2bce9caf7afa919a3fe7ebc333cd39e610579.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-percent-23.0.1_b59804def32ecff1f1bb465437cef1f5ec8b5d9d.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta1/53b5be42d6cf719ac1431b9aa9a4d5ab78856148/retrofit-2.0.0-beta1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta1_4b7b64a2ede002372d28407cd4da9172860bc260.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3_a7e0b8bc1baa6106bb56b0e4d43874220fd58a5d.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_359175b22917f5a84a92182439511eb1ca20e579.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d27c24204c5e507b16fec01006b3d0f1ec42aed4">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/joda-time-2.8.2_f5edb7cc1d7d0627e4127fd04d52111f3c7834a4.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_7cb877978bac3a36b30c5bdc652a1ca69c22a795.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/gson-2.3.1_a9e86ae408952aace358bed20679d8eb2c427a27.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12_408e912e677a5f48c2d332c6cde8b9668ba68a41.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.google.android.apps.common.testing.accessibility.framework/accessibility-test-framework/2.0/7837f95bdff9f797003454247fef02b78d49ae75/accessibility-test-framework-2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7837f95bdff9f797003454247fef02b78d49ae75">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/accessibility-test-framework-2.0_0f5137ff47ed938dac3aa27eaa416ecfa01ed7ac.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e4805433aedef15e73a7eedf7e3496eb4363a583">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-rules-0.4.1_abcbe4f007aab1df0caa2141c00fa3af6894a52f.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1d90a3498ab7a4b68ea6e936e71cf7f4e95453f">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-exposed-instrumentation-api-publish-0.4.1_99aa7cd6bd6cbebfee68e3df9cc48e3ab5ad54f3.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f607369e68cb756b3f8f523403e3d80433a68aa1">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-runner-0.4.1_40756824617af20847afd0773dce349e4d572d68.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_b0aa303d30a14453c3a7ac48c4bb2bc10f8533ce.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0_7da38df3f5222b4a495153379544b3a079dca1a4.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.0.1_6ccfcc980497ebaa305e7810ed58823b5e44872f.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e27d0df01afa01bd384f91a3c41998133e9235a0">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v7-23.0.1_d8bd7cb53bd97acbe5dab221971ab85198f3bd83.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2_ff765fc7ac1aa5ee24e45d958b2aff6097bc60c3.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/okio-1.6.0_83dda6760ccfd86f565da3c290f23292b42562bb.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1_42ebbceee85a4e188f2ae467986d1d590a2b5acd.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.0.1_f318d0fe753b9757a1538652f1c640683ca42c4b.jar" />
+    </item>
+    <item
+        jar="/Users/pivotal/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2/639fd364750d7363c85797dc944b4a80f78fa684/tagsoup-1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="639fd364750d7363c85797dc944b4a80f78fa684">
+        <dex dex="/Users/pivotal/Documents/espresso-bootcamp-master-faye/app/build/intermediates/pre-dexed/androidTest/debug/tagsoup-1.2_a1e5399293a302a3b0241aad1638f39b0ea90a69.jar" />
+    </item>
+
+</items>
