@@ -1,0 +1,3 @@
+Starting: Intent { act=android.intent.action.MAIN cmp=com.ford.oa/.dashboard.activities.LauncherActivity }
+Error type 3
+Error: Activity class {com.ford.oa/com.ford.oa.dashboard.activities.LauncherActivity} does not exist.

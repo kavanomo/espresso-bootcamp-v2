@@ -1,9 +1,14 @@
 package com.example.weatherapp;
 
+import android.app.Activity;
 import android.app.Application;
+import android.app.Instrumentation.ActivityResult;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.SystemClock;
 import android.support.test.espresso.action.ViewActions;
 import android.support.test.espresso.contrib.RecyclerViewActions;
+import android.support.test.espresso.intent.Intents;
 import android.support.test.espresso.matcher.BoundedMatcher;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
@@ -27,6 +32,10 @@ import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.Espresso.openActionBarOverflowOrOptionsMenu;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.intent.Intents.intended;
+import static android.support.test.espresso.intent.Intents.intending;
+import static android.support.test.espresso.intent.matcher.IntentMatchers.hasAction;
+import static android.support.test.espresso.intent.matcher.IntentMatchers.hasData;
 import static android.support.test.espresso.matcher.ViewMatchers.hasSibling;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
@@ -135,7 +144,22 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 
     @Test //Task8
     public void checkMapIntent(){
+        Uri locationUri = Uri.parse("geo:0,0").buildUpon()  //Setting up the data to be tested with (as per MainActivityFragment -> openLocationInMap)
+                .appendQueryParameter("q", "Waterloo,Ontario")
+                .build();
+        ActivityResult result = new ActivityResult(Activity.RESULT_OK, new Intent());
+
+        Intents.init();
+        intending(hasAction(Intent.ACTION_VIEW)).respondWith(result);
+
         openActionBarOverflowOrOptionsMenu(getInstrumentation().getTargetContext());
-        onView(withText(R.string.action_map)).perform(click());
+        onView(withText("Map")).perform(click());
+        intended(allOf(
+                hasAction(Intent.ACTION_VIEW),
+                hasData(locationUri)
+        ));
+
+        Intents.release();
+
     }
 }
