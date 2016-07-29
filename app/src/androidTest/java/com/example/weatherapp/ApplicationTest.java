@@ -1,7 +1,6 @@
 package com.example.weatherapp;
 
 import android.app.Activity;
-import android.app.Application;
 import android.app.Instrumentation.ActivityResult;
 import android.content.Intent;
 import android.net.Uri;
@@ -13,10 +12,10 @@ import android.support.test.espresso.matcher.BoundedMatcher;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.v7.widget.RecyclerView;
-import android.test.ApplicationTestCase;
 import android.test.suitebuilder.annotation.LargeTest;
 import android.view.View;
 
+import com.example.weatherapp.activities.DetailsActivity;
 import com.example.weatherapp.activities.MainActivity;
 
 import org.hamcrest.Description;
@@ -34,8 +33,8 @@ import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.intent.Intents.intended;
 import static android.support.test.espresso.intent.Intents.intending;
-import static android.support.test.espresso.intent.matcher.IntentMatchers.hasAction;
 import static android.support.test.espresso.intent.matcher.IntentMatchers.hasData;
+import static android.support.test.espresso.intent.matcher.IntentMatchers.toPackage;
 import static android.support.test.espresso.matcher.ViewMatchers.hasSibling;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
@@ -51,8 +50,10 @@ import static org.hamcrest.Matchers.is;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest
+public class ApplicationTest  {
 
-public class ApplicationTest extends ApplicationTestCase<Application> {
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule(MainActivity.class);
 
     //Function to open up the Settings
     public void openSettings(){
@@ -60,13 +61,10 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
         onView(withText(R.string.action_settings)).perform(click());
     }
 
-    @Rule
-    public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule(MainActivity.class);
-
-    public ApplicationTest() {
+    /*public ApplicationTest() {
         super(Application.class);
     }
-
+*/
     /*@Test
     public void sleepAfterLaunch(){
         SystemClock.sleep(1000);
@@ -145,21 +143,29 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     @Test //Task8
     public void checkMapIntent(){
         Uri locationUri = Uri.parse("geo:0,0").buildUpon()  //Setting up the data to be tested with (as per MainActivityFragment -> openLocationInMap)
-                .appendQueryParameter("q", "Waterloo,Ontario")
+                .appendQueryParameter("q", "Waterloo,CA")
                 .build();
         ActivityResult result = new ActivityResult(Activity.RESULT_OK, new Intent());
 
         Intents.init();
-        intending(hasAction(Intent.ACTION_VIEW)).respondWith(result);
+        intending(toPackage("com.google.android.apps.maps")).respondWith(result);
 
         openActionBarOverflowOrOptionsMenu(getInstrumentation().getTargetContext());
         onView(withText("Map")).perform(click());
         intended(allOf(
-                hasAction(Intent.ACTION_VIEW),
+                toPackage("com.google.android.apps.maps"),
                 hasData(locationUri)
         ));
 
         Intents.release();
+
+    }
+
+    @Rule
+    public ActivityTestRule activityRule = new ActivityTestRule<>(DetailsActivity.class, true, false); //To set up the activity we are launching directly to
+
+    @Test //Task9
+    public void launchIntoActivity(){
 
     }
 }
